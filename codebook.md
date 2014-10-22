@@ -54,15 +54,15 @@ The following files are available for the train and test data. Their description
 4. Uses descriptive activity names to name the activities in the data set
 	The ActvityId (between 1 to 6) is replaced by corresponding activity WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING. 
 5. Appropriately labels the data set with descriptive activity names.
-	#making syntactically valid (removes parentheses, starting dots etc)
-	#replacing starting letter "t" by "TimeDomain"
-	#replacing starting letter "f" by "FrequencyDomain"
-	#replacing "Mag" by "Magnitude"
-	#replacing "Acc" by "Acceleration"
-	#removing "." 
-	#replacing Ending "Freq" by "Frequency"
-	#replacing Ending "std" by "StandardDeviation"
-	#replacing Ending "mean" by "Mean"
+	-	making syntactically valid (removes parentheses, starting dots etc)
+	-	replacing starting letter "t" by "TimeDomain"
+	-	replacing starting letter "f" by "FrequencyDomain"
+	-	replacing "Mag" by "Magnitude"
+	-	replacing "Acc" by "Acceleration"
+	-	removing "." 
+	-	replacing Ending "Freq" by "Frequency"
+	-	replacing Ending "std" by "StandardDeviation"
+	-	replacing Ending "mean" by "Mean"
 6. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 
